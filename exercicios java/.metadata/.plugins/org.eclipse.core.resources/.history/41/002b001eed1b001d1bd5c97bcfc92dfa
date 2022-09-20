@@ -1,0 +1,22 @@
+import java.util.Locale;
+
+public class Main {
+	
+	
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		
+		int celsius, fahrez;
+		
+		
+		fahrez = 30;
+		celsius = (fahrez-32) * 5/9;
+		
+		System.out.println(celsius);
+		System.out.println(fahrez););
+
+	}
+
+}
